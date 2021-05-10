@@ -21,29 +21,53 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_SUCourse/a_Login'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/SuCourseCalendar/Page_Login - CAS  Central Authentication Service/input_U_username'), 
     'mohamedkassem')
 
+WebUI.delay(1)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/SuCourseCalendar/Page_Login - CAS  Central Authentication Service/input_P_password'), 
     'lsh4UT/KYs157Zjg3xgr3w==')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Dashboard/img_Skip Calendar_block-hider-hide'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Dashboard/img_Skip Calendar_block-hider-show'))
 
-WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Dashboard/h2_Calendar'))
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Dashboard/h2_Calendar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Dashboard/h2_Calendar'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_Dashboard/a_May 2021'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SuCourseCalendar/Page_SUCourse Calendar Detailed month view _34c8e7/span_April 2021'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 
