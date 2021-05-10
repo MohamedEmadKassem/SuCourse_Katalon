@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1620593542117_95']/div/img</value>
+         <value>//img[@alt='Hide Calendar block']</value>
       </entry>
       <entry>
          <key>CSS</key>

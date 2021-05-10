@@ -1,0 +1,158 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Navigation,Chrome 90.0.4430.93,,,2021-05-10 23:36:59,2021-05-10 23:42:04,5m - 5.418s,FAILED
+,,,,,,,
+Test Cases/ProfilePage(PressingOnImage),Chrome 90.0.4430.93,,,2021-05-10 23:37:01,2021-05-10 23:37:30,28.955s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:37:02,2021-05-10 23:37:06,4.005s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:37:06,2021-05-10 23:37:10,4.461s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:10,2021-05-10 23:37:11,1.066s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(PressingOnImage)/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:11,2021-05-10 23:37:13,1.291s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:13,2021-05-10 23:37:14,1.009s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(PressingOnImage)/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:14,2021-05-10 23:37:16,2.494s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:16,2021-05-10 23:37:17,1.013s,PASSED
+"setText(findTestObject(""Object Repository/ProfilePage(PressingOnImage)/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:37:17,2021-05-10 23:37:18,0.904s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:18,2021-05-10 23:37:19,1.019s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/ProfilePage(PressingOnImage)/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:37:19,2021-05-10 23:37:20,0.650s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:20,2021-05-10 23:37:21,1.011s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(PressingOnImage)/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:21,2021-05-10 23:37:24,2.756s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:24,2021-05-10 23:37:25,1.018s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(PressingOnImage)/Page_Dashboard/img_Log out_welcome_userpicture""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:25,2021-05-10 23:37:26,1.378s,PASSED
+delay(3),Chrome 90.0.4430.93,,,2021-05-10 23:37:26,2021-05-10 23:37:29,3.010s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-10 23:37:29,2021-05-10 23:37:30,1.012s,PASSED
+,,,,,,,
+Test Cases/ProfilePage(DropdownTab),Chrome 90.0.4430.93,,,2021-05-10 23:37:30,2021-05-10 23:37:57,27.222s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:37:31,2021-05-10 23:37:33,2.187s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:37:33,2021-05-10 23:37:37,3.622s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:37,2021-05-10 23:37:38,1.011s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:38,2021-05-10 23:37:39,1.097s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:39,2021-05-10 23:37:40,1.005s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:40,2021-05-10 23:37:42,2.227s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:42,2021-05-10 23:37:43,1.013s,PASSED
+"setText(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:37:43,2021-05-10 23:37:44,0.825s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:44,2021-05-10 23:37:45,1.008s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:37:45,2021-05-10 23:37:45,0.537s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:45,2021-05-10 23:37:46,1.012s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:46,2021-05-10 23:37:49,2.642s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:49,2021-05-10 23:37:50,1.007s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_Dashboard/span_Mohamed Emad Mohamed Kassem""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:50,2021-05-10 23:37:51,1.215s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:37:51,2021-05-10 23:37:52,1.009s,PASSED
+"click(findTestObject(""Object Repository/ProfilePage(DropdownTab)/Page_Dashboard/a_Profile""))",Chrome 90.0.4430.93,,,2021-05-10 23:37:52,2021-05-10 23:37:53,1.142s,PASSED
+delay(3),Chrome 90.0.4430.93,,,2021-05-10 23:37:53,2021-05-10 23:37:56,3.009s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-10 23:37:56,2021-05-10 23:37:57,0.985s,PASSED
+,,,,,,,
+Test Cases/MyCourses(CS439),Chrome 90.0.4430.93,,,2021-05-10 23:37:57,2021-05-10 23:38:22,24.535s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:37:58,2021-05-10 23:38:00,2.199s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:38:00,2021-05-10 23:38:04,3.933s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:04,2021-05-10 23:38:05,1.017s,PASSED
+"click(findTestObject(""Object Repository/MyCourses(CS439)/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:05,2021-05-10 23:38:06,1.180s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:06,2021-05-10 23:38:07,1.003s,PASSED
+"click(findTestObject(""Object Repository/MyCourses(CS439)/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:07,2021-05-10 23:38:10,2.285s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:10,2021-05-10 23:38:11,1.006s,PASSED
+"setText(findTestObject(""Object Repository/MyCourses(CS439)/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:38:11,2021-05-10 23:38:11,0.788s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:11,2021-05-10 23:38:12,1.020s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyCourses(CS439)/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:38:12,2021-05-10 23:38:13,0.565s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:13,2021-05-10 23:38:14,1.011s,PASSED
+"click(findTestObject(""Object Repository/MyCourses(CS439)/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:14,2021-05-10 23:38:17,2.887s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:17,2021-05-10 23:38:18,1.012s,PASSED
+"click(findTestObject(""Object Repository/MyCourses(CS439)/Page_Dashboard/a_CS439-202002""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:18,2021-05-10 23:38:20,1.883s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:20,2021-05-10 23:38:21,1.004s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-10 23:38:21,2021-05-10 23:38:22,1.065s,PASSED
+,,,,,,,
+Test Cases/CS439Forum,Chrome 90.0.4430.93,,,2021-05-10 23:38:22,2021-05-10 23:38:52,29.868s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:38:23,2021-05-10 23:38:25,2.139s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:38:25,2021-05-10 23:38:29,3.901s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:29,2021-05-10 23:38:30,1.011s,PASSED
+"click(findTestObject(""Object Repository/CS439Forum/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:30,2021-05-10 23:38:31,1.155s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:31,2021-05-10 23:38:32,1.007s,PASSED
+"click(findTestObject(""Object Repository/CS439Forum/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:32,2021-05-10 23:38:34,2.194s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:34,2021-05-10 23:38:35,1.006s,PASSED
+"setText(findTestObject(""Object Repository/CS439Forum/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:38:35,2021-05-10 23:38:36,0.833s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:36,2021-05-10 23:38:37,1.007s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CS439Forum/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:38:37,2021-05-10 23:38:37,0.578s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:37,2021-05-10 23:38:38,1.013s,PASSED
+"click(findTestObject(""Object Repository/CS439Forum/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:38,2021-05-10 23:38:41,2.609s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:41,2021-05-10 23:38:42,1.012s,PASSED
+"click(findTestObject(""Object Repository/CS439Forum/Page_Dashboard/a_CS439-202002""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:42,2021-05-10 23:38:44,2.201s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:44,2021-05-10 23:38:45,1.010s,PASSED
+"click(findTestObject(""Object Repository/CS439Forum/Page_Course CS439-202002/a_Forums""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:45,2021-05-10 23:38:46,1.108s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:46,2021-05-10 23:38:47,1.018s,PASSED
+"click(findTestObject(""Object Repository/CS439Forum/Page_CS439-202002 Forums/a_Discussion Board""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:47,2021-05-10 23:38:49,1.308s,PASSED
+delay(2),Chrome 90.0.4430.93,,,2021-05-10 23:38:49,2021-05-10 23:38:51,2.004s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-10 23:38:51,2021-05-10 23:38:52,1.029s,PASSED
+,,,,,,,
+Test Cases/BrowserSessions,Chrome 90.0.4430.93,,,2021-05-10 23:38:52,2021-05-10 23:39:25,33.731s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:38:53,2021-05-10 23:38:55,2.033s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:38:55,2021-05-10 23:38:58,3.778s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:38:58,2021-05-10 23:38:59,1.014s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:38:59,2021-05-10 23:39:01,1.418s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:01,2021-05-10 23:39:02,1.016s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:02,2021-05-10 23:39:04,2.598s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:04,2021-05-10 23:39:05,1.017s,PASSED
+"setText(findTestObject(""Object Repository/BrowserSessions/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:39:05,2021-05-10 23:39:06,0.819s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:06,2021-05-10 23:39:07,1.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BrowserSessions/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:39:07,2021-05-10 23:39:08,0.509s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:08,2021-05-10 23:39:09,1.004s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:09,2021-05-10 23:39:12,2.826s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:12,2021-05-10 23:39:13,1.014s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_Dashboard/span_Mohamed Emad Mohamed Kassem""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:13,2021-05-10 23:39:13,0.716s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:13,2021-05-10 23:39:14,1.015s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_Dashboard/span_Profile""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:14,2021-05-10 23:39:15,1.145s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:15,2021-05-10 23:39:16,1.015s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_Mohamed Emad Mohamed Kassem Public profile/a_Browser sessions""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:16,2021-05-10 23:39:18,1.172s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:18,2021-05-10 23:39:19,1.016s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_Browser sessions/a_156.213.215.40""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:19,2021-05-10 23:39:20,1.328s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:20,2021-05-10 23:39:21,1.013s,PASSED
+"click(findTestObject(""Object Repository/BrowserSessions/Page_IP address lookup 156.213.215.40 - Cai_411c07/img""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:21,2021-05-10 23:39:21,0.485s,PASSED
+delay(3),Chrome 90.0.4430.93,,,2021-05-10 23:39:21,2021-05-10 23:39:25,3.014s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-10 23:39:25,2021-05-10 23:39:25,0.970s,PASSED
+,,,,,,,
+Test Cases/BlogEntries,Chrome 90.0.4430.93,,,2021-05-10 23:39:26,2021-05-10 23:39:57,31.302s,FAILED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:39:26,2021-05-10 23:39:28,2.134s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:39:28,2021-05-10 23:39:32,3.780s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:32,2021-05-10 23:39:33,1.017s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:33,2021-05-10 23:39:34,1.161s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:34,2021-05-10 23:39:35,1.016s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:35,2021-05-10 23:39:38,2.276s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:38,2021-05-10 23:39:39,1.010s,PASSED
+"setText(findTestObject(""Object Repository/BlogEntries/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:39:39,2021-05-10 23:39:40,0.897s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:40,2021-05-10 23:39:41,1.008s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BlogEntries/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:39:41,2021-05-10 23:39:41,0.558s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:41,2021-05-10 23:39:42,1.016s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:42,2021-05-10 23:39:45,2.919s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:45,2021-05-10 23:39:46,1.004s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_Dashboard/span_Mohamed Emad Mohamed Kassem""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:46,2021-05-10 23:39:47,0.814s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:47,2021-05-10 23:39:48,1.011s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_Dashboard/span_Profile""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:48,2021-05-10 23:39:49,1.191s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:49,2021-05-10 23:39:50,1.011s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_Mohamed Emad Mohamed Kassem Public profile/a_Blog entries""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:50,2021-05-10 23:39:52,1.471s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:52,2021-05-10 23:39:53,1.015s,PASSED
+"click(findTestObject(""Object Repository/BlogEntries/Page_SUCourse Mohamed Emad Mohamed Kassem Blog/a_Add a new entry""))",Chrome 90.0.4430.93,,,2021-05-10 23:39:53,2021-05-10 23:39:55,2.413s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:39:55,2021-05-10 23:39:56,1.008s,PASSED
+"setText(findTestObject(""Object Repository/BlogEntries/Page_SUCourse Blogs Add a new entry/div_1 1""), ""1 <p>1</p>"")",Chrome 90.0.4430.93,,,2021-05-10 23:39:56,2021-05-10 23:39:57,0.857s,FAILED
+,,,,,,,
+Test Cases/SuCourseCalendar,Chrome 90.0.4430.93,,,2021-05-10 23:39:57,2021-05-10 23:42:04,2m - 7.482s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-10 23:39:57,2021-05-10 23:40:00,2.995s,PASSED
+"navigateToUrl(""https://sucourse.sabanciuniv.edu/plus/"")",Chrome 90.0.4430.93,,,2021-05-10 23:40:00,2021-05-10 23:40:05,4.168s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:05,2021-05-10 23:40:06,1.014s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_SUCourse/a_Login""))",Chrome 90.0.4430.93,,,2021-05-10 23:40:06,2021-05-10 23:40:07,1.192s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:07,2021-05-10 23:40:08,1.017s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)""))",Chrome 90.0.4430.93,,,2021-05-10 23:40:08,2021-05-10 23:40:10,2.187s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:10,2021-05-10 23:40:11,1.010s,PASSED
+"setText(findTestObject(""Object Repository/SuCourseCalendar/Page_Login - CAS  Central Authentication Service/input_U_username""), ""mohamedkassem"")",Chrome 90.0.4430.93,,,2021-05-10 23:40:11,2021-05-10 23:40:12,0.822s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:12,2021-05-10 23:40:13,1.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SuCourseCalendar/Page_Login - CAS  Central Authentication Service/input_P_password""), ""lsh4UT/KYs157Zjg3xgr3w=="")",Chrome 90.0.4430.93,,,2021-05-10 23:40:13,2021-05-10 23:40:13,0.513s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:13,2021-05-10 23:40:14,1.016s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit""))",Chrome 90.0.4430.93,,,2021-05-10 23:40:14,2021-05-10 23:40:17,2.563s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:17,2021-05-10 23:40:18,1.017s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_Dashboard/img_Skip Calendar_block-hider-hide""))",Chrome 90.0.4430.93,,,2021-05-10 23:40:18,2021-05-10 23:40:50,32.273s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:40:50,2021-05-10 23:40:51,1.005s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_Dashboard/img_Skip Calendar_block-hider-show""))",Chrome 90.0.4430.93,,,2021-05-10 23:40:51,2021-05-10 23:41:23,32.202s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:41:23,2021-05-10 23:41:24,1.011s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_Dashboard/h2_Calendar""))",Chrome 90.0.4430.93,,,2021-05-10 23:41:24,2021-05-10 23:41:25,0.559s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:41:25,2021-05-10 23:41:26,1.011s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_Dashboard/h2_Calendar""))",Chrome 90.0.4430.93,,,2021-05-10 23:41:26,2021-05-10 23:41:26,0.427s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:41:26,2021-05-10 23:41:28,1.008s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_Dashboard/a_May 2021""))",Chrome 90.0.4430.93,,,2021-05-10 23:41:28,2021-05-10 23:41:29,1.756s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:41:29,2021-05-10 23:41:30,1.019s,PASSED
+"click(findTestObject(""Object Repository/SuCourseCalendar/Page_SUCourse Calendar Detailed month view _34c8e7/span_April 2021""))",Chrome 90.0.4430.93,,,2021-05-10 23:41:30,2021-05-10 23:42:02,32.051s,PASSED
+delay(1),Chrome 90.0.4430.93,,,2021-05-10 23:42:02,2021-05-10 23:42:03,1.004s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-10 23:42:03,2021-05-10 23:42:04,0.997s,PASSED

@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PositiveSignIn</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ca1ebb94-5445-4924-8fe2-8744da44ea1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AddingBlog</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

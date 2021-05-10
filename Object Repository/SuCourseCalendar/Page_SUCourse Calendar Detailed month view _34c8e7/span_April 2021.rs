@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='month-navigation-60984b933914b60984b92d991527']/div/a/span[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='◄'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

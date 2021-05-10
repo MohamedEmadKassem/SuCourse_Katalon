@@ -6,6 +6,10 @@
    <elementGuidId>1c9e7b4f-3247-475a-9130-7d47829835e1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'CS439-202002' and @href = 'https://sucourse.sabanciuniv.edu/plus/course/view.php?id=2670' and (text() = 'CS439-202002' or . = 'CS439-202002')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='course-info-container-2670']/div/div[2]/h4/a</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#course-info-container-2670 > div.media > div.media-body > h4.media-heading > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
