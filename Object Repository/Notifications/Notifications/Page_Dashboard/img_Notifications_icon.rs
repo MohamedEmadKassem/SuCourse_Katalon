@@ -6,12 +6,11 @@
    <elementGuidId>df525e3d-b7e4-44b1-9b0f-f9ad70d47069</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popover-region-container-609a7c42acdc0609a7c428d3c110']/div/div/a/span/img</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//img[@alt='Mark all as read'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>22e4ef37-5069-4a35-8240-47b29b5f1a96</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h2[@id='instance-52707-header']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#instance-52707-header</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip Calendar'])[1]/following::h2[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

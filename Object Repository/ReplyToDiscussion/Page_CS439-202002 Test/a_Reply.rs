@@ -6,12 +6,11 @@
    <elementGuidId>ccab5021-d9ea-4b0d-b0b3-fe7f2482730e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div[3]/div[3]/div[2]/div/a[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Reply')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

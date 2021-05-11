@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='popover-region-container-609a827d202c9609a827cd47b29']/a/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No messages'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

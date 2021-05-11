@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1620738985659_195']</value>
+         <value>//span/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

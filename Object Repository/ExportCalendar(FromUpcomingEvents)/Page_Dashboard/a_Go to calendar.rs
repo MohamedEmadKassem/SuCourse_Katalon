@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='inst52708']/div[2]/div[2]/div/a</value>
+         <value>//a[contains(text(),'Go to calendar...')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -89,4 +89,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PressingOnMoodleVideo(HomePage)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8d90cb8d-f280-4603-a844-d7b1a3afd965</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomiseThisPage(ProfilePage)-UselessFeature</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
