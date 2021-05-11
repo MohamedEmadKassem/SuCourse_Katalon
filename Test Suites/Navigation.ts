@@ -101,4 +101,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TimelineTab(Dashboard)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>766dbad1-6adf-48e4-b7d6-c3e973749460</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CS439announcments</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
