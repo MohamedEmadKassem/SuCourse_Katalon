@@ -95,4 +95,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SabanciUniversityLogo(FromCS439page)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>cc090675-01a7-43b6-9c0c-9f334a036c73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TimelineTab(Dashboard)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
