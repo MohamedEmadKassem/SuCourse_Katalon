@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AddingAdditionalNameToProfile</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>97074f19-4ffb-4893-8005-850cc38ceba8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AddNewDisscusionTopic(CS439discussionBoard)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
