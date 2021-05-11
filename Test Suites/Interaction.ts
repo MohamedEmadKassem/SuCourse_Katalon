@@ -65,4 +65,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SearchBar(SearchForCS439)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2d81deb8-8d4c-4216-8980-ac9fe94d7fce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomizeThisPage(Dashboard)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
