@@ -53,4 +53,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ReplyToDiscussion</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>62f10c54-9eb9-4704-877b-4e950a960a0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ManagePrivateFiles</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>61bb5d3a-0ae1-4c5d-9a22-60cda6b4800a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SearchBar(SearchForCS439)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
