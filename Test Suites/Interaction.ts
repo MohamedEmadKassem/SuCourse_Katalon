@@ -29,4 +29,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AddingBlog</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>52338f9e-7c8b-4279-842f-946ebde51608</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AddingEventToCalendar</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

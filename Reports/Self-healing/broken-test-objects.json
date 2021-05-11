@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AddingAdditionalNameToProfile/Page_SUCourse Edit profile/a_Additional names",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1620733897296_145\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Additional names\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AddingAdditionalNameToProfile/Page_SUCourse Edit profile/a_Additional names_link.png"
+    }
+  ]
 }
