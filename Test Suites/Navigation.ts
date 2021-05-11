@@ -53,4 +53,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SuCourseCalendar</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ef36c03d-6049-4f65-b1db-5832ed885623</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Messages</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3115e84-a0c1-4952-a5e8-bb28ce77840f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Notifications</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>711039d8-f4aa-493f-b054-2399e441863b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GuestLogIn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aae2ccd5-24a0-4b1f-8b7f-eb2c034281aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PressingOnNavigationTab</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

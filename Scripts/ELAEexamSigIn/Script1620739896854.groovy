@@ -23,33 +23,15 @@ WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/PressingOnNavigationTab/Page_SUCourse/a_Login'))
+WebUI.click(findTestObject('Object Repository/ELAEexamSignIn/Page_SUCourse/a_Login'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/PressingOnNavigationTab/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
+WebUI.click(findTestObject('Object Repository/ELAEexamSignIn/Page_SUCourse Authentication choice/a_ELAE exam login'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/PressingOnNavigationTab/Page_Login - CAS  Central Authentication Service/input_U_username'), 
-    'mohamedkassem')
-
-WebUI.delay(1)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/PressingOnNavigationTab/Page_Login - CAS  Central Authentication Service/input_P_password'), 
-    'lsh4UT/KYs157Zjg3xgr3w==')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/PressingOnNavigationTab/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/PressingOnNavigationTab/Page_Dashboard/div_Courses_sidebar-btn'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/PressingOnNavigationTab/Page_Dashboard/p_Courses'))
+WebUI.click(findTestObject('Object Repository/ELAEexamSignIn/Page_SUCourse Log in to the site/input_Username_username'))
 
 WebUI.delay(2)
 
