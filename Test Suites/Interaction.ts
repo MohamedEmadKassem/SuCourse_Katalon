@@ -71,4 +71,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomizeThisPage(Dashboard)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>78576f3b-c601-43a4-98da-3538e7e5b852</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ExportCalendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e26ea83-77c8-467c-8786-4ee07e5162c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LogOut</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
