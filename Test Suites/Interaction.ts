@@ -83,4 +83,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/LogOut</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>700be592-d040-4dd0-9e9e-929fb020bf5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PressingOnMoodleVideo(HomePage)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
