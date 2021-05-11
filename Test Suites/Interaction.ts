@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AddNewDisscusionTopic(CS439discussionBoard)</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1453d1ed-f202-42ef-956a-d65a13f12ba0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ReplyToDiscussion</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

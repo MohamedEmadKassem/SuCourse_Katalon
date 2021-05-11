@@ -77,4 +77,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PressingOnNavigationTab</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0c20412c-0c85-47bf-ad26-438346879d12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ELAEexamSigIn</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b7153f1-3591-4b87-899b-e5a128a11bef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SabanciUniversityLogo(FromHomepage)</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
