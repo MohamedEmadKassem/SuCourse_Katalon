@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AddingEventToCalendar</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e334832c-eaeb-4f16-988f-0c97460ebb12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AddingAdditionalNameToProfile</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
