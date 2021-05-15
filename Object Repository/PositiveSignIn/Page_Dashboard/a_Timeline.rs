@@ -6,12 +6,12 @@
    <elementGuidId>bcea7e63-a581-453b-b760-19c075d284a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='block-myoverview-view-choices-609915c461738609915c46173b1']/li/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.nav-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Timeline')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

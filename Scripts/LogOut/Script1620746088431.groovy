@@ -53,5 +53,5 @@ WebUI.click(findTestObject('Object Repository/LogOut/Page_Dashboard/span_Log out
 
 WebUI.delay(2)
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('LogOut/Page_SUCourse/a_Home'), 0)
 

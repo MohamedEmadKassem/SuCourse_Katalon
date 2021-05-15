@@ -57,13 +57,11 @@ WebUI.click(findTestObject('Object Repository/PositiveSignIn/Page_Login - CAS  C
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/PositiveSignIn/Page_Dashboard/body_Skip to main contentCDATAdocument.body_695f45'))
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/PositiveSignIn/Page_Dashboard/a_Timeline'))
 
 WebUI.delay(1)
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('PositiveSignIn/Page_Dashboard/a_Timeline'), 0)
 

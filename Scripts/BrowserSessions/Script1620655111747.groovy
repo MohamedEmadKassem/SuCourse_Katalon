@@ -55,6 +55,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/BrowserSessions/Page_Mohamed Emad Mohamed Kassem Public profile/a_Browser sessions'))
 
+WebUI.verifyElementClickable(findTestObject('BrowserSessions/Page_Mohamed Emad Mohamed Kassem Public profile/a_Browser sessions'))
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/BrowserSessions/Page_Browser sessions/a_156.213.215.40'))
@@ -62,6 +64,8 @@ WebUI.click(findTestObject('Object Repository/BrowserSessions/Page_Browser sessi
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/BrowserSessions/Page_IP address lookup 156.213.215.40 - Cai_411c07/img'))
+
+WebUI.verifyElementClickable(findTestObject('BrowserSessions/Page_IP address lookup 156.213.215.40 - Cai_411c07/img'))
 
 WebUI.delay(3)
 

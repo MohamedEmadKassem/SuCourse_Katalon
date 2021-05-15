@@ -51,6 +51,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/CS439announcments/Page_Course CS439-202002/span_Announcements Forum'))
 
+WebUI.verifyElementPresent(findTestObject('CS439Forum/Page_Course CS439-202002/a_Forums'), 0)
+
 WebUI.delay(2)
 
 WebUI.closeBrowser()

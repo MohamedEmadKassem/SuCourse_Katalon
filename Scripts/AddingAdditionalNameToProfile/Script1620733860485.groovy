@@ -76,7 +76,9 @@ WebUI.click(findTestObject('Object Repository/AddingAdditionalNameToProfile/Page
 
 WebUI.delay(1)
 
+WebUI.verifyTextPresent('Mohamed', false)
+
+WebUI.verifyTextPresent('kassem', false)
+
 WebUI.closeBrowser()
-
-
 

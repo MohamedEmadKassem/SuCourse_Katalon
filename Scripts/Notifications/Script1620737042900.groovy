@@ -51,6 +51,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Notifications/Notifications/Page_Dashboard/img_Notifications_icon'))
 
+WebUI.verifyElementClickable(findTestObject('Notifications/Notifications/Page_Dashboard/img_Notifications_icon'))
+
 WebUI.delay(1)
 
 WebUI.closeBrowser()

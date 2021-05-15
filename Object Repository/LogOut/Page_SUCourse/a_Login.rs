@@ -4,10 +4,19 @@
    <name>a_Login</name>
    <tag></tag>
    <elementGuidId>c061bace-8c97-4f59-b27a-de2ce3fa0d41</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>div.forgotpass > a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://sucourse.sabanciuniv.edu/plus/login/index.php' and (text() = 'Login' or . = 'Login')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
