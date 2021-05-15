@@ -29,25 +29,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/GuestLogIn/Page_SUCourse Authentication choice/a_Guest users'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/GuestLogIn/Page_SUCourse Log in to the site/input'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/GuestLogIn/Page_SUCourse/button_invalidparameter_yui_3_17_2_1_162073_c0fa87'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/GuestLogIn/Page_SUCourse/div_Login'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/GuestLogIn/Page_SUCourse/a_Login'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/GuestLogIn/Page_SUCourse Authentication choice/a_Guest users'))
+WebUI.verifyElementClickable(findTestObject('GuestLogIn/Page_SUCourse Authentication choice/a_Guest users'))
 
 WebUI.delay(1)
 

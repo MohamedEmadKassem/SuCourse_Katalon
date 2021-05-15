@@ -51,6 +51,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/SabanciUniversityLogo(FromCS439page)/Page_Course CS439-202002/img_Advanced search_img-responsive'))
 
+WebUI.verifyElementClickable(findTestObject('SabanciUniversityLogo(FromCS439page)/Page_Course CS439-202002/img_Advanced search_img-responsive'))
+
 WebUI.delay(2)
 
 WebUI.closeBrowser()
