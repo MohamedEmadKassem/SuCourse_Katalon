@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
+
+WebUI.click(findTestObject('SearchByBox/Page_SUCourse/a_Login'))
+
+WebUI.click(findTestObject('SearchByBox/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
+
+WebUI.setText(findTestObject('SearchByBox/Page_Login - CAS  Central Authentication Service/input_U_username'), 'mohamedkassem')
+
+WebUI.setEncryptedText(findTestObject('SearchByBox/Page_Login - CAS  Central Authentication Service/input_P_password'), 
+    'lsh4UT/KYs157Zjg3xgr3w==')
+
+WebUI.click(findTestObject('SearchByBox/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
+
+WebUI.getUrl()
+
+WebUI.mouseOver(findTestObject('SearchByBox/Page_Dashboard/input_Search courses_search'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('SearchByBox/Page_Dashboard/input_Search courses_search (1)'), 'CS439')
+
+WebUI.click(findTestObject('SearchByBox/Page_Dashboard/input_Search courses_search'))
+
+WebUI.verifyTextPresent('CS439-202002', false)
+
