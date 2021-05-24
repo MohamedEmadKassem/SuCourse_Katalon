@@ -39,6 +39,166 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/CalendarURL/Page_SUCourse Calendar Export/label_This week_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AnnouncmentsForum/Page_SUCourse/a_Login",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1621853260215_55\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Login\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AnnouncmentsForum/Page_SUCourse/a_Login_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpfateProfileAndInputName/Page_SUCourse Edit profile/a_Additional names",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1621855985240_145\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Additional names\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpfateProfileAndInputName/Page_SUCourse Edit profile/a_Additional names_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpcomingActivities/Page_Dashboard/a_Timeline",
+      "brokenLocator": "//ul[@id\u003d\u0027block-myoverview-view-choices-60ab93e0b212260ab93e0b21251\u0027]/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Timeline\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpcomingActivities/Page_Dashboard/a_Timeline_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UpcomingActivities/Page_Dashboard/a_Sort by courses",
+      "brokenLocator": "//div[@id\u003d\u0027timeline-view-60ab93e0b212260ab93e0b21251\u0027]/div/div/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Sort by courses\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UpcomingActivities/Page_Dashboard/a_Sort by courses_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HideLatestPages/Page_Dashboard/img_Skip Latest badges_block-hider-hide",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1621870122800_63\u0027]/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Hide Latest badges block\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HideLatestPages/Page_Dashboard/img_Skip Latest badges_block-hider-hide_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HideLatestPages/hide/img_Skip Latest badges_yui_3_17_2_1_1621870773281_417",
+      "brokenLocator": "//img[@id\u003d\u0027yui_3_17_2_1_1621870773281_417\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Show Latest badges block\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HideLatestPages/hide/img_Skip Latest badges_yui_3_17_2_1_1621870773281_417_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HideLatestPages/hide/img_Skip Latest badges_yui_3_17_2_1_1621870773281_420",
+      "brokenLocator": "//img[@id\u003d\u0027yui_3_17_2_1_1621870773281_420\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Hide Latest badges block\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HideLatestPages/hide/img_Skip Latest badges_yui_3_17_2_1_1621870773281_420_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NewEvent/Page_SUCourse Calendar Detailed month view May 2021/button_New event",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-month-60abcffc1d23060abcffbdb06827\u0027]/div/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Detailed month view for:\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NewEvent/Page_SUCourse Calendar Detailed month view May 2021/button_New event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NewEvent/Page_SUCourse Calendar Detailed month view May 2021/button_Save",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1621872637202_1090\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NewEvent/Page_SUCourse Calendar Detailed month view May 2021/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UploadFile/Page_Private files/div_You can drag and drop files here to add them._dndupload-arrow",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1621873368160_247\u0027]/div/div[2]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div[2]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UploadFile/Page_Private files/div_You can drag and drop files here to add them._dndupload-arrow_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UploadFile/Page_Private files/span_Recent files",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1621873368160_1116\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027File picker\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UploadFile/Page_Private files/span_Recent files_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UploadFile/Page_Private files/div_Google Drive_yui_3_17_2_1_1621873368160_1302",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1621873368160_1302\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UploadFile/Page_Private files/div_Google Drive_yui_3_17_2_1_1621873368160_1302_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UploadFile/Page_Private files/button_Select this file",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1621873368160_1379\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Choose license\u0027])[2]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UploadFile/Page_Private files/button_Select this file_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SendMessage/Page_Dashboard/a_New message",
+      "brokenLocator": "//div[@id\u003d\u0027popover-region-container-60abd55ed99d760abd55ea2a719\u0027]/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027New message\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SendMessage/Page_Dashboard/a_New message_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SendMessage/Page_SUCourse Messages/div_Yunus Emre Tat",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1621874026410_301\u0027]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Non-contacts\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SendMessage/Page_SUCourse Messages/div_Yunus Emre Tat_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SendMessage/Page_SUCourse Messages/textarea",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1621874026410_325\u0027]/div/div/textarea",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SendMessage/Page_SUCourse Messages/textarea_position.png"
     }
   ]
 }

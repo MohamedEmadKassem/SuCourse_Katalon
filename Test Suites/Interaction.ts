@@ -11,4 +11,64 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ff368f99-0475-4488-9c62-1c8698386c41</testSuiteGuid>
+   <testCaseLink>
+      <guid>59045a75-dd4e-4e79-ab23-ba68484ea98f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/AnnouncmentsForum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e371e7b9-3232-4abd-a444-fa776f2a9723</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/CalendarUrl</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2a179fd-1596-48b6-a823-56dde2db4be0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/ELAEexamLogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1813bea-9fa5-4e4f-a723-6ffb60bd45d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/OrientationDoc</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67790df5-97c8-40d1-81c4-0e7edbd65a0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/ReplyDiscussion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0721b207-f690-4d49-8aa2-c6bec2f68b1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/UpcomingActivities</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43b60827-f4b7-4ab2-8a61-3a2baeabdb25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/UpdateProfileAndInputName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3be3b1c3-6d5b-4fb5-b80d-7d0f55834dff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/HideLatestBadges</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cce9cb1c-4793-49c8-9407-f27c9cfd4c62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/NewBlogEntry</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23755617-adcf-4f22-b212-0c77c988fb45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/NewEvent</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
