@@ -9,6 +9,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/SearchByBox/Page_SUCourse/a_Login_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CalendarURL/Page_SUCourse Calendar Upcoming events/button_Export calendar",
+      "brokenLocator": "//button[@id\u003d\u0027single_button60ab630d4e11428\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CalendarURL/Page_SUCourse Calendar Upcoming events/button_Export calendar_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CalendarURL/Page_SUCourse Calendar Export/label_All events",
+      "brokenLocator": "//label[@id\u003d\u0027yui_3_17_2_1_1621844759208_489\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Events to export\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CalendarURL/Page_SUCourse Calendar Export/label_All events_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CalendarURL/Page_SUCourse Calendar Export/label_This week",
+      "brokenLocator": "//label[@id\u003d\u0027yui_3_17_2_1_1621844759208_488\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Time period\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CalendarURL/Page_SUCourse Calendar Export/label_This week_neighbor.png"
     }
   ]
 }
