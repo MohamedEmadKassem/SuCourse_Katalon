@@ -12,13 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>8dd77dd8-7f09-45c8-8dce-923ee1e7439c</testSuiteGuid>
    <testCaseLink>
-      <guid>f36448c8-155f-484a-964c-8e4be2e0eb1a</guid>
+      <guid>0120f6de-39ed-4fd4-86c6-6777a6c31f15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Navigation/Login</testCaseId>
+      <testCaseId>Test Cases/Navigation/NavigateProfile</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ede456da-af43-4976-a7c1-4507059b741a</guid>
+      <guid>ad816c63-7d22-4b62-8f0c-ec80618869c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Navigation/NavigateCS439</testCaseId>
@@ -30,9 +30,33 @@
       <testCaseId>Test Cases/Navigation/NavigateForumsAndDiscussionBoard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f9b5947a-05d5-4db8-9075-06e451006363</guid>
+      <guid>f36448c8-155f-484a-964c-8e4be2e0eb1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Navigation/NavigateProfile</testCaseId>
+      <testCaseId>Test Cases/Navigation/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8a7c011f-ef2b-473d-ad6a-de9c7104d6eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigation/NavigateBlogEntries</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2b7b104-5d33-4433-9769-3c0705848a9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigation/NavigateCalendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3920335-8443-48f4-b12f-4e03370743c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigation/Moodle</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aab2557b-7f6a-497e-9d0b-18e355fe7d23</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigation/NavigateMessage</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

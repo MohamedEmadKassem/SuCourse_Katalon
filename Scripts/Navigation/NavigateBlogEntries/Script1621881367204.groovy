@@ -17,29 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://sucourse.sabanciuniv.edu/plus/')
 
-WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('SiteHome/Page_SUCourse/a_Login'))
+WebUI.click(findTestObject('NavigateBlogEntries/Page_SUCourse/a_Login'))
 
-WebUI.click(findTestObject('SiteHome/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
+WebUI.click(findTestObject('NavigateBlogEntries/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
 
-WebUI.setText(findTestObject('SiteHome/Page_Login - CAS  Central Authentication Service/input_U_username'), 'mohamedkassem')
+WebUI.setText(findTestObject('NavigateBlogEntries/Page_Login - CAS  Central Authentication Service/input_U_username'), 'mohamedkassem')
 
-WebUI.setEncryptedText(findTestObject('SiteHome/Page_Login - CAS  Central Authentication Service/input_P_password'), 'lsh4UT/KYs157Zjg3xgr3w==')
+WebUI.setEncryptedText(findTestObject('NavigateBlogEntries/Page_Login - CAS  Central Authentication Service/input_P_password'), 
+    'lsh4UT/KYs157Zjg3xgr3w==')
 
-WebUI.click(findTestObject('SearchByBox/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
+WebUI.click(findTestObject('NavigateBlogEntries/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
 
 WebUI.getUrl()
 
-WebUI.click(findTestObject('SiteHome/Page_Dashboard/div_Courses_sidebar-btn'))
+WebUI.click(findTestObject('NavigateBlogEntries/Page_Dashboard/img_Log out_welcome_userpicture'))
 
-WebUI.click(findTestObject('SiteHome/Page_Dashboard/span_Site home'))
+WebUI.verifyTextPresent('profile', false)
 
-WebUI.click(findTestObject('SiteHome/Page_SUCourse/button_invalidparameter_yui_3_17_2_1_1621884106061_214'))
+WebUI.scrollToPosition(0, 300)
 
-WebUI.verifyTextPresent('Welcome', false)
+WebUI.click(findTestObject('NavigateBlogEntries/Page_Mohamed Emad Mohamed Kassem Public profile/a_Blog entries'))
 
-WebUI.verifyTextPresent('Course Management System', false)
+WebUI.getUrl()
+
+WebUI.verifyTextPresent('blog', false)
 

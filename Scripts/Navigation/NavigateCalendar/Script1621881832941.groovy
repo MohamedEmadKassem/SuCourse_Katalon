@@ -17,29 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://sucourse.sabanciuniv.edu/plus/')
 
-WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SiteHome/Page_SUCourse/a_Login'))
+WebUI.click(findTestObject('NavigateCalendar/Page_SUCourse/a_Login'))
 
-WebUI.click(findTestObject('SiteHome/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
+WebUI.click(findTestObject('NavigateCalendar/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
 
-WebUI.setText(findTestObject('SiteHome/Page_Login - CAS  Central Authentication Service/input_U_username'), 'mohamedkassem')
+WebUI.setText(findTestObject('NavigateCalendar/Page_Login - CAS  Central Authentication Service/input_U_username'), 'mohamedkassem')
 
-WebUI.setEncryptedText(findTestObject('SiteHome/Page_Login - CAS  Central Authentication Service/input_P_password'), 'lsh4UT/KYs157Zjg3xgr3w==')
+WebUI.setEncryptedText(findTestObject('NavigateCalendar/Page_Login - CAS  Central Authentication Service/input_P_password'), 
+    'lsh4UT/KYs157Zjg3xgr3w==')
 
-WebUI.click(findTestObject('SearchByBox/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
+WebUI.click(findTestObject('NavigateCalendar/Page_Login - CAS  Central Authentication Service/input_Remember Me_submit'))
 
 WebUI.getUrl()
 
-WebUI.click(findTestObject('SiteHome/Page_Dashboard/div_Courses_sidebar-btn'))
+WebUI.scrollToPosition(0, 600)
 
-WebUI.click(findTestObject('SiteHome/Page_Dashboard/span_Site home'))
+WebUI.click(findTestObject('NavigateCalendar/Page_Dashboard/a_May 2021'))
 
-WebUI.click(findTestObject('SiteHome/Page_SUCourse/button_invalidparameter_yui_3_17_2_1_1621884106061_214'))
+WebUI.getUrl()
 
-WebUI.verifyTextPresent('Welcome', false)
-
-WebUI.verifyTextPresent('Course Management System', false)
+WebUI.verifyTextPresent('calendar', false)
 

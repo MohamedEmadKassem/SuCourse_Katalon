@@ -33,3 +33,7 @@ WebUI.getUrl()
 
 WebUI.verifyLinksAccessible(['https://sucourse.sabanciuniv.edu/plus/my/'])
 
+WebUI.click(findTestObject('LogIn/UserProfile/img_Log out_welcome_userpicture'))
+
+WebUI.verifyTextPresent('profile', false)
+

@@ -219,6 +219,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/NavigateCourseTimeline/Page_Dashboard/a_Timeline_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NavigateMessage/Page_Dashboard/a_New message",
+      "brokenLocator": "//div[@id\u003d\u0027popover-region-container-60abf803a81a160abf8037b3f19\u0027]/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027New message\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NavigateMessage/Page_Dashboard/a_New message_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SiteHome/Page_SUCourse/button_invalidparameter_yui_3_17_2_1_1621884106061_214",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1621884106061_214\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SiteHome/Page_SUCourse/button_invalidparameter_yui_3_17_2_1_1621884106061_214_position.png"
     }
   ]
 }
