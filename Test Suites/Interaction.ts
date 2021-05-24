@@ -71,4 +71,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Interaction/NewEvent</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>42c18278-9006-449c-8384-c1e591c89c34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/GuestUsers</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03c1ee7a-17ee-4dd3-b496-916363f1c2e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/NavigateCourseTimeline</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54ac5bec-18ca-47d0-bea4-c224ac3db455</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/SendMessage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a67aeb4-8938-47cf-a4f2-cb0a6be7bac0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/UploadFile</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

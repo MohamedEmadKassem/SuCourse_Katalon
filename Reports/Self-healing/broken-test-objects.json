@@ -199,6 +199,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/SendMessage/Page_SUCourse Messages/textarea_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NavigateCourseTimeline/Page_Dashboard/a_Courses",
+      "brokenLocator": "//ul[@id\u003d\u0027block-myoverview-view-choices-60abd90178ebf60abd90178ec41\u0027]/li[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Courses\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NavigateCourseTimeline/Page_Dashboard/a_Courses_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NavigateCourseTimeline/Page_Dashboard/a_Timeline",
+      "brokenLocator": "//ul[@id\u003d\u0027block-myoverview-view-choices-60abd90178ebf60abd90178ec41\u0027]/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Timeline\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NavigateCourseTimeline/Page_Dashboard/a_Timeline_link.png"
     }
   ]
 }
