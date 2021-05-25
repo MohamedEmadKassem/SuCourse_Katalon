@@ -36,8 +36,6 @@ WebUI.getUrl()
 
 WebUI.scrollToPosition(0, 600)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('GoToCalendar/Page_Dashboard/a_May 2021'))
 
 WebUI.getUrl()

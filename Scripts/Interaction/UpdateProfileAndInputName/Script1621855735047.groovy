@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://sucourse.sabanciuniv.edu/plus/')
 
-WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('UpfateProfileAndInputName/Page_SUCourse/a_Login'))
 
 WebUI.click(findTestObject('UpfateProfileAndInputName/Page_SUCourse Authentication choice/a_SUNet users (Sabanc University members)'))
 
@@ -43,12 +45,10 @@ WebUI.scrollToPosition(300, 700)
 
 WebUI.click(findTestObject('UpfateProfileAndInputName/Page_SUCourse Edit profile/a_Additional names'))
 
-WebUI.delay(2)
+WebUI.clearText(findTestObject('UpfateProfileAndInputName/Page_SUCourse Edit profile/input_First name - phonetic_firstnamephonetic'))
 
 WebUI.setText(findTestObject('UpfateProfileAndInputName/Page_SUCourse Edit profile/input_First name - phonetic_firstnamephonetic'), 
     'Mohamed Kassem')
 
 WebUI.click(findTestObject('UpfateProfileAndInputName/Page_SUCourse Edit profile/input_Address_submitbutton'))
-
-WebUI.delay(2)
 

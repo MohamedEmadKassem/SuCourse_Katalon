@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://sucourse.sabanciuniv.edu/plus/')
 
-WebUI.navigateToUrl('https://sucourse.sabanciuniv.edu/plus/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('AnnouncmentsForum/Page_SUCourse/a_Login'))
 

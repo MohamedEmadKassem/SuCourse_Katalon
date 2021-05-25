@@ -36,8 +36,6 @@ WebUI.getUrl()
 
 WebUI.mouseOver(findTestObject('SearchByBox/Page_Dashboard/input_Search courses_search'))
 
-WebUI.delay(1)
-
 WebUI.setText(findTestObject('SearchByBox/Page_Dashboard/input_Search courses_search (1)'), 'CS439')
 
 WebUI.click(findTestObject('SearchByBox/Page_Dashboard/input_Search courses_search'))
